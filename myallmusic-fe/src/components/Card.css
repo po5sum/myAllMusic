@@ -1,0 +1,23 @@
+.album-cover{
+    width: 15%;
+    object-fit: cover;
+}
+.name-title{
+    font-weight: bold;
+}
+.modal-background{
+    background-color: #212529;
+    color: white;
+}
+
+.form-option-style{
+    background-color: #343A40;
+    color: white;
+}
+.white-placeholder::placeholder {
+    color: white; 
+    opacity: 0.6; 
+}
+.loading{
+    color: white;
+}

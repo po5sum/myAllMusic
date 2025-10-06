@@ -1,0 +1,21 @@
+.page-header{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.pagestyle{
+    background-color: #212529;
+    height: 100%;
+    min-height: 100vh;
+}
+.hp-img{
+    width: 20em;
+    height: 2.5em;
+    border: 1px solid white;
+    margin: 1em;
+}
+.img-cent{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

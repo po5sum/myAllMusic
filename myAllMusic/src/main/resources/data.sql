@@ -1,0 +1,14 @@
+insert into artists (artistId, name, debutYear, country, imageURL) values ('1001', 'Kanye West','1996', 'United States', 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg');
+insert into artists (artistId, name, debutYear, country, imageURL) values ('1002', 'Kendrick Lamar','2003', 'United States', 'https://upload.wikimedia.org/wikipedia/commons/3/32/Pulitzer2018-portraits-kendrick-lamar.jpg');
+insert into artists (artistId, name, debutYear, country, imageURL) values ('1003', 'Death Grips', '2010', 'United States', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Death_grips_2014.jpg');
+insert into artists (artistId, name, debutYear, country, imageURL) values ('1004', 'Godspeed You! Black Emperor','1994', 'Canada', 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Godspeed_You%21_Black_Emperor_%40_Roadburn_Festival_2018-04-21_003.jpg');
+insert into artists (artistId, name, debutYear, country, imageURL) values ('1005', 'Radiohead','1985', 'United Kingdom', 'https://i.guim.co.uk/img/media/c174daa9a205ff9ad68c155bad9003fd946bbf85/0_178_2048_1228/master/2048.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=d0ec33bb206217ddc78f8701fe6a32c4');
+insert into artists (artistId, name, debutYear, country, imageURL) values ('1006', 'Have a Nice Life','2000', 'United States', 'https://upload.wikimedia.org/wikipedia/commons/8/81/Have_a_Nice_Life_cropped.jpg');
+
+insert into albums (albumId, title, releaseYear, coverURL, artistId) values ('101', 'The College Dropout', 2004, 'https://upload.wikimedia.org/wikipedia/en/a/a3/Kanyewest_collegedropout.jpg', '1001');
+insert into albums (albumId, title, releaseYear, coverURL, artistId) values ('102', 'To Pimp A Butterfly', 2015, 'https://upload.wikimedia.org/wikipedia/en/f/f6/Kendrick_Lamar_-_To_Pimp_a_Butterfly.png', '1002');
+insert into albums (albumId, title, releaseYear, coverURL, artistId) values ('103', 'Graduation', 2007, 'https://upload.wikimedia.org/wikipedia/en/7/70/Graduation_%28album%29.jpg', '1001');
+insert into albums (albumId, title, releaseYear, coverURL, artistId) values ('104', 'The Money Store', 2012, 'https://upload.wikimedia.org/wikipedia/en/a/af/Death_Grips_-_The_Money_Store.jpg', '1003');
+insert into albums (albumId, title, releaseYear, coverURL, artistId) values ('105', 'Lift Your Skinny Fists Like Antennas to Heaven', 2000, 'https://upload.wikimedia.org/wikipedia/en/d/d3/Liftyrskinnyfists.jpg', '1004');
+insert into albums (albumId, title, releaseYear, coverURL, artistId) values ('106', 'OK Computer', 1997, 'https://upload.wikimedia.org/wikipedia/en/b/ba/Radioheadokcomputer.png', '1005');
+insert into albums (albumId, title, releaseYear, coverURL, artistId) values ('107', 'Deathconsciousness', 2008, 'https://upload.wikimedia.org/wikipedia/en/9/9b/Have_a_nice_life_deathconsciousness.jpg', '1006');
